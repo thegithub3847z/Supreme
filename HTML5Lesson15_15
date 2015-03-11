@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>HTML5 CSS3 Lesson 15.15 Number & Bullet Styles</title>
+
+
+<style> /*The following is internal CSS3.*/
+
+/*link styling begins*/
+a:link {color:black; text-decoration:none;}
+a:visited {color:red;}
+a:hover {color:green;}
+a:active {color:yellow;}
+/*link styling ends*/
+
+/*selector styling begins*/
+#para1 {border: thick groove blue; border-radius:25px; padding:10px; background-color:#ff0000;}
+#para2 {border: thin solid #0000ff; border-radius:0px; padding:20px; background-color:#ffffff;}
+h3 {border:medium dashed #000000; border-radius:50px; padding:60px; background-color:#BB06F7;}
+/*selector styling ends*/
+
+</style>
+<!-- **The above line ends the internal styling** -->
+
+</head>
+
+
+<body>
+
+<p id="para1">This paragraph has a border of 3px, a padding of 35 pixels on all sides, and a red background to show the padding.
+<a href=""> </a> </p>
+
+<p id="para2"><a href="http://www.finalcall.com">Link not visited </a>*********<a href="https://www.google.com">Link visited </a>
+************<a href="https://www.enjoylearningcenter.com">Hover here and watch the text.</a>*************
+<a href="http://bing.com">Active setting shows you are clicking. </a> 
+Unicode Transformation Format (UTF) is a set of standardized characters used to create HTML
+documents and was created to replace existing character sets to make a universal character set across all
+platforms. HTML5 supports both UTF-8 and UTF-16. UTF-8 is the accepted character set for encoding e-mail and all webpages 
+while UTF-16 is used for major operating systems and environments like Windows and Java. </p>
+
+<h3>Leading (pronounced ledding) is a term that refers to controlling the vertical spacing between lines of text.  You can 
+control the leading of text by using the LINE-HEIGHT property.  The value you assign is typically expressed as a multiple 
+of the height of  the font.  However, you can also  assign spacing as a percentage of the font, or an absolute value measured 
+in the form of point (pt), pixels (px), centimeters (cm), millimeters (mm), inches (in, picas (pc), x - height (ex), or em. </h3>
+
+
+<body/>
+</html>
